@@ -2,28 +2,9 @@
 
 // Template Name: Home Page
 
+get_header();
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/owlcarousel/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/owlcarousel/dist/assets/owl.theme.default.min.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <title>Agile Academy</title>
-</head>
-
-<body class="box-border">
-
-    <?php get_header(); ?>
 
     <header id="header" class=" bg-cover  bg-[#033A54] lg:h-[658px] flex flex-col  w-[100%]">
         <div class="  flex lg:flex-row flex-col w-full items-center justify-center px-[40px] xl:px-[0px]">

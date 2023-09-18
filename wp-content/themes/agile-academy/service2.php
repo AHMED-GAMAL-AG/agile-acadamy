@@ -2,26 +2,8 @@
 
 /* Template Name: Service2 */
 
+get_header();
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Agile Academy</title>
-</head>
-
-<body class="box-border">
-
-    <?php get_header(); ?>
-
 
     <header id="header" class=" bg-cover  bg-[#033A54] lg:h-[340px] h-[260px] flex flex-col  w-[100%]">
         <div class="xl:p-[80px] lg:px-[48px] lg:py-[80px] py-[40px] px-[16px]">
@@ -46,7 +28,7 @@
                     provide a wide range of pure professional coaching services.</p>
 
             </div>
-            <img class="xl:w-[510px] xl:h-[510px] w-[452px] h-[452px]" src="assets/images/card1.png">
+            <img class="xl:w-[510px] xl:h-[510px] w-[452px] h-[452px]" src="<?php echo get_template_directory_uri()?>/assets/images/card1.png">
         </div>
     </section>
     <section class="xl:p-[80px] lg:py-[80px] lg:px-[40px] px-[16px] py-[40px]">
@@ -54,7 +36,7 @@
             Services we offer</p>
         <div class="xl:p-[80px] lg:p-[40px] p-[24px]">
             <div class="card border border-[#CAD6E0] round-[4px] lg:p-[40px] flex lg:flex-row flex-col items-center mb-[40px]">
-                <img src="assets/images/card1.png" class="w-[256px] h-[256px] ">
+                <img src="<?php echo get_template_directory_uri()?>/assets/images/card1.png" class="w-[256px] h-[256px] ">
                 <div class="xl:p-[80px] lg:p-[40px] p-[24px]">
                     <p class="text-[#0F1F26] md:text-[24px] text-[18px] pb-[16px]" style="font-family: Merriweather_Bold;">
                         Agile Team Coaching</p>
@@ -78,7 +60,7 @@
             </div>
 
             <div class="card border border-[#CAD6E0] round-[4px] lg:p-[40px] flex lg:flex-row flex-col items-center mb-[40px]">
-                <img src="assets/images/card1.png" class="w-[256px] h-[256px] ">
+                <img src="<?php echo get_template_directory_uri()?>/assets/images/card1.png" class="w-[256px] h-[256px] ">
                 <div class="xl:p-[80px] lg:p-[40px] p-[24px]">
                     <p class="text-[#0F1F26] md:text-[24px] text-[18px] pb-[16px]" style="font-family: Merriweather_Bold;">
                         Professional Coaching</p>
@@ -88,7 +70,7 @@
             </div>
 
             <div class="card border border-[#CAD6E0] round-[4px] lg:p-[40px] flex lg:flex-row flex-col items-center">
-                <img src="assets/images/card1.png" class="w-[256px] h-[256px] ">
+                <img src="<?php echo get_template_directory_uri()?>/assets/images/card1.png" class="w-[256px] h-[256px] ">
                 <div class="xl:p-[80px] lg:p-[40px] p-[24px]">
                     <p class="text-[#0F1F26] md:text-[24px] text-[18px] pb-[16px]" style="font-family: Merriweather_Bold;">
                         Leadership & Executive Coaching</p>

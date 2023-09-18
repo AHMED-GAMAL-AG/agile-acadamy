@@ -1,23 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+/* Template Name: Courses Catalog */
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Agile Academy</title>
-</head>
+get_header();
+?>
+
 
 <body class="box-border">
-
-    <?php get_header(); ?>
-
-
     <header id="header" class=" bg-cover  bg-[#033A54] lg:h-[340px] h-[260px] flex flex-col  w-[100%]">
         <div class="xl:p-[80px] lg:px-[48px] lg:py-[80px] py-[40px] px-[16px]">
             <div class="flex flex-row pb-[16px] lg:pt-[0px] pt-[50px]">
@@ -61,14 +50,14 @@
 
 
                     </div>
-                    <img class="lg:w-[565px] lg:h-[345px] w-[343px] h-[209px]" src="assets/images/icagile-roadmap 1.png">
+                    <img class="lg:w-[565px] lg:h-[345px] w-[343px] h-[209px]" src="<?php echo get_template_directory_uri() ?>/assets/images/icagile-roadmap 1.png">
                 </div>
                 <div class="xl:py-[120px] xl:px-[80px] lg:py-[80px] lg:px-[40px] py-[40px] px-[16px]">
                     <p class="text-[#0F1F26] md:text-[32px] text-[24px] lg:pb-[64px] pb-[48px] text-center" style="font-family: Merriweather_Black;">
                         ICAgile Accredited Training Courses</p>
                     <div class="grid xl:grid-cols-2 grid-cols-1 gap-[40px] xl:mb-[64px] mb-[48px]">
                         <div class="card p-[40px] border border-[#CAD6E0]">
-                            <img src="assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
                             <p class="text-[#0F1F26] md:text-[24px] text-[18px] pb-[16px]" style="font-family: Merriweather_Bold;">Fundamentals of Agile Software Development (ICP)
                             </p>
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px] pb-[24px] " style="font-family: Open_Sans;">
@@ -76,10 +65,10 @@
                                 the Agile mindset, values, principles as well as a broad overview of popular methods and
                                 practices. Upon attending this course, you’ll earn the<span class="text-[#C34849]">
                                     ICAgile Certified Professional (ICP)</span> certificate. </p>
-                            <a href="course.html"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button></a>
+                            <a href="<?php echo get_home_url() ?>/course"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button></a>
                         </div>
                         <div class="card p-[40px] border border-[#CAD6E0]">
-                            <img src="assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
                             <p class="text-[#0F1F26] md:text-[24px] text-[18px] pb-[16px]" style="font-family: Merriweather_Bold;">Agile Team Facilitation (ICP-ATF)</p>
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px] pb-[24px] " style="font-family: Open_Sans;">
                                 Agile teams are self-organizing and highly collaborative. Team leaders or scrum masters
@@ -91,7 +80,7 @@
                             <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
                         </div>
                         <div class="card p-[40px] border border-[#CAD6E0]">
-                            <img src="assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
                             <p class="text-[#0F1F26] md:text-[24px] text-[18px] pb-[16px]" style="font-family: Merriweather_Bold;">Agile Professional Programming (ICP-PRG)</p>
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px] pb-[24px] " style="font-family: Open_Sans;">
                                 This course covers the engineering skills and tools required to become a professional
@@ -102,7 +91,7 @@
                             <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
                         </div>
                         <div class="card p-[40px] border border-[#CAD6E0]">
-                            <img src="assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
                             <p class="text-[#0F1F26] md:text-[24px] text-[18px] pb-[16px]" style="font-family: Merriweather_Bold;">Agile Professional Testing (ICP-TST)</p>
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px] pb-[24px] " style="font-family: Open_Sans;">
                                 This course focuses primarily on agile testing techniques and processes in addition to
@@ -113,7 +102,7 @@
                             <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
                         </div>
                         <div class="card p-[40px] border border-[#CAD6E0]">
-                            <img src="assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
                             <p class="text-[#0F1F26] md:text-[24px] text-[18px] pb-[16px]" style="font-family: Merriweather_Bold;">Agile Product Ownership (ICP-APO)</p>
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px] pb-[24px] " style="font-family: Open_Sans;">
                                 Agile projects are all about business value. Attend this course to gain the tools and
@@ -123,7 +112,7 @@
                             <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
                         </div>
                         <div class="card p-[40px] border border-[#CAD6E0]">
-                            <img src="assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
                             <p class="text-[#0F1F26] md:text-[24px] text-[18px] pb-[16px]" style="font-family: Merriweather_Bold;">Agile Coaching (ICP-ACC)</p>
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px] pb-[24px] " style="font-family: Open_Sans;">
                                 The class focuses primarily on the mindset, roles, and responsibilities of an Agile
@@ -134,7 +123,7 @@
                             <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
                         </div>
                         <div class="card p-[40px] border border-[#CAD6E0]">
-                            <img src="assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
                             <p class="text-[#0F1F26] md:text-[24px] text-[18px] pb-[16px]" style="font-family: Merriweather_Bold;">Agile Project Management (ICP-APM)</p>
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px] pb-[24px] " style="font-family: Open_Sans;">
                                 The agile project manager role is distinct from the traditional project manager, and
@@ -157,7 +146,7 @@
                         Customized workshops</p>
                     <div class="grid xl:grid-cols-2 grid-cols-1 gap-[40px] xl:mb-[64px] mb-[48px]">
                         <div class="card round-[8px] bg-white">
-                            <img src="assets/images/class.png" class=" pb-[40px] mx-auto h-[282px] w-full">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/class.png" class=" pb-[40px] mx-auto h-[282px] w-full">
                             <p class="text-[#0F1F26] md:text-[24px] text-[18px]  px-[40px] pb-[16px]" style="font-family: Merriweather_Bold;">Advanced User Stories
                             </p>
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px]  px-[40px] pb-[24px] " style="font-family: Open_Sans;">
@@ -172,7 +161,7 @@
                             </div>
                         </div>
                         <div class="card round-[8px] bg-white">
-                            <img src="assets/images/class2.png" class=" pb-[40px] mx-auto h-[282px] w-full">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/class2.png" class=" pb-[40px] mx-auto h-[282px] w-full">
                             <p class="text-[#0F1F26] md:text-[24px] text-[18px]  px-[40px] pb-[16px]" style="font-family: Merriweather_Bold;">Agile Contracting and Budgeting
                             </p>
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px]  px-[40px] pb-[24px] " style="font-family: Open_Sans;">
@@ -186,7 +175,7 @@
                             </div>
                         </div>
                         <div class="card round-[8px] bg-white">
-                            <img src="assets/images/class3.png" class=" pb-[40px] mx-auto h-[282px] w-full">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/class3.png" class=" pb-[40px] mx-auto h-[282px] w-full">
                             <p class="text-[#0F1F26] md:text-[24px] text-[18px]  px-[40px] pb-[16px]" style="font-family: Merriweather_Bold;">Refactoring to Clean Code Workshop
                             </p>
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px]  px-[40px] pb-[24px] " style="font-family: Open_Sans;">
@@ -199,7 +188,7 @@
                             </div>
                         </div>
                         <div class="card round-[8px] bg-white">
-                            <img src="assets/images/class4.png" class=" pb-[40px] mx-auto h-[282px]w-full ">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/class4.png" class=" pb-[40px] mx-auto h-[282px]w-full ">
                             <p class="text-[#0F1F26] md:text-[24px] text-[18px]  px-[40px] pb-[16px]" style="font-family: Merriweather_Bold;">Kanban for Agile Teams Workshop
                             </p>
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px]  px-[40px] pb-[24px] " style="font-family: Open_Sans;">
@@ -209,7 +198,7 @@
                             </div>
                         </div>
                         <div class="card round-[8px] bg-white">
-                            <img src="assets/images/class5.png" class=" pb-[40px] mx-auto h-[282px] w-full">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/class5.png" class=" pb-[40px] mx-auto h-[282px] w-full">
                             <p class="text-[#0F1F26] md:text-[24px] text-[18px]  px-[40px] pb-[16px]" style="font-family: Merriweather_Bold;">The Lean Startup
                             </p>
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px]  px-[40px] pb-[24px] " style="font-family: Open_Sans;">
@@ -219,7 +208,7 @@
                             </div>
                         </div>
                         <div class="card round-[8px] bg-white">
-                            <img src="assets/images/class6.png" class=" pb-[40px] mx-auto h-[282px] w-full">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/class6.png" class=" pb-[40px] mx-auto h-[282px] w-full">
                             <p class="text-[#0F1F26] md:text-[24px] text-[18px]  px-[40px] pb-[16px]" style="font-family: Merriweather_Bold;">Performance Evaluation for Software People
                             </p>
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px]  px-[40px] pb-[24px] " style="font-family: Open_Sans;">
@@ -238,7 +227,7 @@
     </section>
 
     <section class=" relative bg-cover bg-[#C34849]   h-[208px] px-[16px] py-[40px] flex flex-col justify-center items-center">
-        <img class="lg:block hidden absolute top-0 right-0" src="assets/images/Icon.svg">
+        <img class="lg:block hidden absolute top-0 right-0" src="<?php echo get_template_directory_uri() ?>/assets/images/Icon.svg">
         <p class="text-white text-[32px] text-center pb-[24px]" style="font-family:Merriweather_Black;">Reach out to us
             for more information</p>
         <a href="contact-us.html"><button class="bg-white md:w-[160px] w-full px-[32px] py-[10px] rounded-[4px]" style="font-family:Open_Sans_Bold;">Contact us</button></a>
@@ -247,7 +236,7 @@
     <footer class=" bg-cover  bg-[#02283B]  flex flex-col  w-[100%]">
         <div class="lg:m-[80px] md:mx-[40px] my-[80px] mx-[16px]">
             <a href="" class=" pb-[40px]">
-                <img src="assets/images/Logo.png" class=" w-[227px] sm:w-[176px] h-8 " alt="Logo" />
+                <img src="<?php echo get_template_directory_uri() ?>/assets/images/Logo.png" class=" w-[227px] sm:w-[176px] h-8 " alt="Logo" />
             </a>
             <div class="flex lg:flex-row justify-between items-center flex-col">
                 <div class="md:order-2 lg:order-1 order-2 lg:w-[40%] w-full lg:pr-[50px]">
@@ -258,10 +247,10 @@
                             <button type="button" class="text-white rounded-[4px] text-[18px] bg-[#C34849] hover:bg-[#923031] h-[56px] text-center  py-[10px] px-[32px] " style="font-family:Open_Sans_Bold; ">Join</button>
                         </div>
                         <div class="flex hidden md:block md:mt-[25px] lg:mt-0">
-                            <button class="mr-[16px]"><img src="assets/images/Linkedin-icon.svg"></button>
-                            <button class="mr-[16px]"><img src="assets/images/Twitter-icon.svg"></button>
-                            <button class="mr-[16px]"><img src="assets/images/Youtube-icon.svg"></button>
-                            <button><img src="assets/images/Facebook-icon.svg"></button>
+                            <button class="mr-[16px]"><img src="<?php echo get_template_directory_uri() ?>/assets/images/Linkedin-icon.svg"></button>
+                            <button class="mr-[16px]"><img src="<?php echo get_template_directory_uri() ?>/assets/images/Twitter-icon.svg"></button>
+                            <button class="mr-[16px]"><img src="<?php echo get_template_directory_uri() ?>/assets/images/Youtube-icon.svg"></button>
+                            <button><img src="<?php echo get_template_directory_uri() ?>/assets/images/Facebook-icon.svg"></button>
                         </div>
                     </div>
                 </div>
@@ -271,7 +260,7 @@
                         </p>
                         <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="">Services</a></div>
                         <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="">Training</a></div>
-                        <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="about-us.html">About
+                        <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="">About
                                 us</a></div>
                         <div class="text-white text-[16px]" style="font-family:Open_Sans;"><a href="contact-us.html">Contact us</a>
                         </div>

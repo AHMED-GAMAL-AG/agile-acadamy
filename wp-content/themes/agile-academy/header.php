@@ -1,8 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/owlcarousel/dist/assets/owl.theme.default.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Agile Academy</title>
+</head>
+
+<body class="box-border">
+
 <nav class="bg-[#033A54] fixed w-full z-50">
         <div class="xl:px-[80px] lg:px-[40px] px-[16px] py-[20px] flex flex-wrap items-center justify-between  ">
             <div class="flex">
                 <div class="lg:w-[236px] sm:w-[176px] h-8 md:mr-2">
-                    <a href="<?php echo get_template_directory_uri()?>/index.php" class="">
+                    <a href="<?php get_home_url()?>/Home Page" class="">
                         <img src="<?php echo get_template_directory_uri()?>/assets/images/Logo.png" class=" lg:w-[236px] sm:w-[176px] h-8 " alt="Logo" />
                     </a>
                 </div>
@@ -98,24 +117,24 @@
                                     </svg></button>
                                 <ul x-show="open" @click.away="open = false" class="dropdown-menu">
                                     <li>
-                                        <a href="service1.php"
+                                        <a href="<?php echo home_url()?>/service1"
                                             class="block  py-2 px-2 hover:bg-white hover:text-[#033A54]"
                                             style="font-family: Open_Sans; font-weight: 400;">Enterprise Business
                                             Agility Transformation</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo get_template_directory_uri()?>/service2.php"
+                                        <a href="<?php echo home_url()?>/service2"
                                             class="block  py-2 px-2 hover:bg-white hover:text-[#033A54]"
                                             style="font-family: Open_Sans; font-weight: 400;">Coaching Services</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo get_template_directory_uri()?>/service4.php"
+                                        <a href="<?php echo home_url()?>/service4"
                                             class="block  py-2 px-2 hover:bg-white hover:text-[#033A54]"
                                             style="font-family: Open_Sans; font-weight: 400;">Agile Readiness &
                                             Health Assessment</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo get_template_directory_uri()?>/service5.php"
+                                        <a href="<?php echo home_url()?>/service5"
                                             class="block  py-2  px-2 hover:bg-white hover:text-[#033A54]"
                                             style="font-family: Open_Sans; font-weight: 400;">Capability Building
                                             Programs</a>
@@ -177,12 +196,12 @@
                                     </svg></button>
                                 <ul x-show="open" @click.away="open = false" class="dropdown-menu">
                                     <li>
-                                        <a href="<?php echo get_template_directory_uri()?>/courses-catalog.php"
+                                        <a href="<?php echo home_url()?>/courses-catalog"
                                             class="block  py-2 px-2 hover:bg-white hover:text-[#033A54] hover:round-[4px]">Courses
                                             catalog</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo get_template_directory_uri()?>/cources-calender.php"
+                                        <a href="<?php echo home_url()?>/courses-calendar"
                                             class="block  py-2 px-2 hover:bg-white hover:text-[#033A54] hover:round-[4px]">Courses
                                             calendar</a>
                                     </li>
@@ -205,12 +224,12 @@
                                 <ul class="py-2 text-sm text-gray-700 dark:text-white"
                                     aria-labelledby="dropdownLargeButton">
                                     <li>
-                                        <a href="<?php echo get_template_directory_uri()?>/courses-catalog.php"
+                                        <a href="<?php echo home_url()?>/courses-catalog"
                                             class=" text-[#4F5B66] text-[16px] block px-4 py-2 hover:bg-[#F2FBFF]"
                                             style="font-family: Open_Sans; font-weight: 400;">Courses catalog</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo get_template_directory_uri()?>/cources-calender.php"
+                                        <a href="<?php echo home_url()?>/courses-calendar"
                                             class=" text-[#4F5B66] text-[16px] block px-4 py-2 hover:bg-[#F2FBFF]"
                                             style="font-family: Open_Sans; font-weight: 400;">Courses calendar</a>
                                     </li>
@@ -222,7 +241,7 @@
                     </li>
 
                     <li class="lg:px-0 lg:py-0 px-[16px] py-[10px]">
-                        <a href="<?php echo get_template_directory_uri()?>/about-us.php" class="block  text-white text-[14px]" style="font-family: Open_Sans_Bold; ">About
+                        <a href="<?php echo home_url()?>/about-us" class="block  text-white text-[14px]" style="font-family: Open_Sans_Bold; ">About
                             us</a>
                     </li>
 

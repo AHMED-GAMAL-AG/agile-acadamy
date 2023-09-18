@@ -2,26 +2,8 @@
 
 /* Template Name: Service4 */
 
+get_header();
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Agile Academy</title>
-</head>
-
-<body class="box-border">
-
-<?php get_header(); ?>
-
 
     <header id="header" class=" bg-cover  bg-[#033A54] lg:h-[340px] h-[260px] flex flex-col  w-[100%]">
         <div class="xl:p-[80px] lg:px-[48px] lg:py-[80px] py-[40px] px-[16px]">
@@ -44,7 +26,7 @@
                     Our assessment services provide organizations with 3 pillars: team health and maturity, performance, and alignment to business outcomes and goals. We offer several radars for assessing Teams, Programs and Product Lines, Portfolio, and competencies (Leaders, Product Owners, Scrum Masters, Agile Coaches…etc.)</p>
 
             </div>
-            <img class="xl:w-[510px] xl:h-[510px] w-[452px] h-[452px]" src="assets/images/card1.png">
+            <img class="xl:w-[510px] xl:h-[510px] w-[452px] h-[452px]" src="<?php echo get_template_directory_uri()?>/assets/images/card1.png">
         </div>
     </section>
     <section class="p-[40px] lg:px-[40px] lg:py-[80px] xl:p-[80px]">
@@ -72,7 +54,7 @@
         <p class="text-center text-[32px] md:pb-[80px] pb-[48px]" style="font-family:Merriweather_Black;">Outcomes</p>
         <div class="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1  divide-[#CAD6E0] lg:gap-[80px] gap-[40px]">
             <div>
-                <img class="w-[156px] h-[156px] pb-[24px] mx-auto" src="assets/images/card3.png">
+                <img class="w-[156px] h-[156px] pb-[24px] mx-auto" src="<?php echo get_template_directory_uri()?>/assets/images/card3.png">
                 <p class=" text-center text-[#0F1F26] md:text-[24px] text-[18px]" style="font-family:Merriweather_Bold;">
                     Certified scrum master</p>
                 <p class=" text-center text-[#4F5B66]  md:text-[16px] text-[14px]" style="font-family:Open_Sans;">
@@ -81,7 +63,7 @@
 
             </div>
             <div>
-                <img class="w-[156px] h-[156px] pb-[24px] mx-auto" src="assets/images/card2.png">
+                <img class="w-[156px] h-[156px] pb-[24px] mx-auto" src="<?php echo get_template_directory_uri()?>/assets/images/card2.png">
                 <p class=" text-center text-[#0F1F26] md:text-[24px] text-[18px]" style="font-family:Merriweather_Bold;">
                     Certified Scrum Product Owner</p>
                 <p class=" text-center text-[#4F5B66]  md:text-[16px] text-[14px]" style="font-family:Open_Sans;">
@@ -89,7 +71,7 @@
 
             </div>
             <div>
-                <img class="w-[156px] h-[156px] pb-[24px] mx-auto" src="assets/images/card4.png">
+                <img class="w-[156px] h-[156px] pb-[24px] mx-auto" src="<?php echo get_template_directory_uri()?>/assets/images/card4.png">
                 <p class=" text-center text-[#0F1F26] md:text-[24px] text-[18px]" style="font-family:Merriweather_Bold;">
                     Better User Stories</p>
                 <p class=" text-center text-[#4F5B66]  md:text-[16px] text-[14px]" style="font-family:Open_Sans;">

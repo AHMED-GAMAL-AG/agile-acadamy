@@ -25,7 +25,7 @@
                         </p>
                         <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="">Services</a></div>
                         <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="">Training</a></div>
-                        <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="about-us.html">About
+                        <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="">About
                                 us</a></div>
                         <div class="text-white text-[16px]" style="font-family:Open_Sans;"><a href="contact-us.html">Contact us</a>
                         </div>
@@ -54,3 +54,4 @@
     <script src="<?php echo get_template_directory_uri() ?>/script.js"></script>
     <script src="<?php echo get_template_directory_uri() ?>/navBar.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/navBar.js"></script>
