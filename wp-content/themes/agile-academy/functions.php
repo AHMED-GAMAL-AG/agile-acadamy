@@ -1,4 +1,5 @@
 <?php
+
 /**
  * agile academy functions and definitions
  *
@@ -7,9 +8,9 @@
  * @package agile_academy
  */
 
-if ( ! defined( '_S_VERSION' ) ) {
+if (!defined('_S_VERSION')) {
 	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.0' );
+	define('_S_VERSION', '1.0.0');
 }
 
 /**
@@ -19,17 +20,18 @@ if ( ! defined( '_S_VERSION' ) ) {
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function agile_academy_setup() {
+function agile_academy_setup()
+{
 	/*
 		* Make theme available for translation.
 		* Translations can be filed in the /languages/ directory.
 		* If you're building a theme based on agile academy, use a find and replace
 		* to change 'agile-academy' to the name of your theme in all the template files.
 		*/
-	load_theme_textdomain( 'agile-academy', get_template_directory() . '/languages' );
+	load_theme_textdomain('agile-academy', get_template_directory() . '/languages');
 
 	// Add default posts and comments RSS feed links to head.
-	add_theme_support( 'automatic-feed-links' );
+	add_theme_support('automatic-feed-links');
 
 	/*
 		* Let WordPress manage the document title.
@@ -37,19 +39,19 @@ function agile_academy_setup() {
 		* hard-coded <title> tag in the document head, and expect WordPress to
 		* provide it for us.
 		*/
-	add_theme_support( 'title-tag' );
+	add_theme_support('title-tag');
 
 	/*
 		* Enable support for Post Thumbnails on posts and pages.
 		*
 		* @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		*/
-	add_theme_support( 'post-thumbnails' );
+	add_theme_support('post-thumbnails');
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'agile-academy' ),
+			'menu-1' => esc_html__('Primary', 'agile-academy'),
 		)
 	);
 
@@ -83,7 +85,7 @@ function agile_academy_setup() {
 	);
 
 	// Add theme support for selective refresh for widgets.
-	add_theme_support( 'customize-selective-refresh-widgets' );
+	add_theme_support('customize-selective-refresh-widgets');
 
 	/**
 	 * Add support for core custom logo.
@@ -100,7 +102,7 @@ function agile_academy_setup() {
 		)
 	);
 }
-add_action( 'after_setup_theme', 'agile_academy_setup' );
+add_action('after_setup_theme', 'agile_academy_setup');
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -109,22 +111,24 @@ add_action( 'after_setup_theme', 'agile_academy_setup' );
  *
  * @global int $content_width
  */
-function agile_academy_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'agile_academy_content_width', 640 );
+function agile_academy_content_width()
+{
+	$GLOBALS['content_width'] = apply_filters('agile_academy_content_width', 640);
 }
-add_action( 'after_setup_theme', 'agile_academy_content_width', 0 );
+add_action('after_setup_theme', 'agile_academy_content_width', 0);
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function agile_academy_widgets_init() {
+function agile_academy_widgets_init()
+{
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'agile-academy' ),
+			'name'          => esc_html__('Sidebar', 'agile-academy'),
 			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here.', 'agile-academy' ),
+			'description'   => esc_html__('Add widgets here.', 'agile-academy'),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
 			'before_title'  => '<h2 class="widget-title">',
@@ -132,22 +136,23 @@ function agile_academy_widgets_init() {
 		)
 	);
 }
-add_action( 'widgets_init', 'agile_academy_widgets_init' );
+add_action('widgets_init', 'agile_academy_widgets_init');
 
 /**
  * Enqueue scripts and styles.
  */
-function agile_academy_scripts() {
-	wp_enqueue_style( 'agile-academy-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'agile-academy-style', 'rtl', 'replace' );
+function agile_academy_scripts()
+{
+	wp_enqueue_style('agile-academy-style', get_stylesheet_uri(), array(), _S_VERSION);
+	wp_style_add_data('agile-academy-style', 'rtl', 'replace');
 
-	wp_enqueue_script( 'agile-academy-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script('agile-academy-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true);
 
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
+	if (is_singular() && comments_open() && get_option('thread_comments')) {
+		wp_enqueue_script('comment-reply');
 	}
 }
-add_action( 'wp_enqueue_scripts', 'agile_academy_scripts' );
+add_action('wp_enqueue_scripts', 'agile_academy_scripts');
 
 /**
  * Implement the Custom Header feature.
@@ -172,7 +177,29 @@ require get_template_directory() . '/inc/customizer.php';
 /**
  * Load Jetpack compatibility file.
  */
-if ( defined( 'JETPACK__VERSION' ) ) {
+if (defined('JETPACK__VERSION')) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+// -------------------------------------------------------------------------------------------------------
+
+function agile_academy_enqueue_css()
+{
+	// stylesheets
+	wp_enqueue_style('style', get_template_directory_uri() . '/style.css' );
+	wp_enqueue_style('flowbite', 'https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css' );
+	wp_enqueue_style('owl-carousel', get_template_directory_uri() . '/owlcarousel/dist/assets/owl.carousel.min.css');
+	wp_enqueue_style('owl-carousel-theme', get_template_directory_uri() . '/owlcarousel/dist/assets/owl.theme.default.min.css');
+	wp_enqueue_style('tailwindcss', 'https://cdn.tailwindcss.com');
+
+	// scripts in the footer
+	wp_enqueue_script('jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js' , array(), null, true);
+	wp_enqueue_script('alpinejs', 'https://unpkg.com/alpinejs@3.10.3/dist/cdn.min.js', array(), null, true);
+	wp_enqueue_script('owl-carousel', get_template_directory_uri() . '/owlcarousel/dist/owl.carousel.min.js', array(), null, true);
+	wp_enqueue_script('flowbite', 'https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js', array(), null, true);
+	wp_enqueue_script('navbar', get_template_directory_uri() . '/navBar.js', array(), null, true);
+	wp_enqueue_script('script', get_template_directory_uri() . '/script.js', array(), null, true);
+}
+
+add_action('wp_enqueue_scripts', 'agile_academy_enqueue_css');
 
