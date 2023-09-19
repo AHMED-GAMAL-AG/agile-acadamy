@@ -206,7 +206,7 @@ get_header();
                             <div class="xl:pb-[24px] pb-[24px] lg:pb-[0px]">
                                 <p class="text-[#0F1F26] text-[18px] text-start pb-[8px]" style="font-family: Merriweather_Bold;">Upcoming class</p>
                                 <p class="text-[#4F5B66] text-[16px]" style="font-family: Open_Sans;">No upcoming
-                                    classes, <span class="text-[#C34849] underline"><a href="">contact us</a></span> for
+                                    classes, <span class="text-[#C34849] underline"><a href="<?php echo get_home_url() ?>/Contact Us">contact us</a></span> for
                                     more information</p>
                             </div>
                             <div class="xl:pb-[24px] pb-[24px] lg:pb-[0px]">

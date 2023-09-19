@@ -33,12 +33,12 @@ get_header();
                     coaching, agility health assessments, and Leadership & Executive Coaching.
                 </p>
             </div>
-            <img class="lg:w-[510px] lg:h-[510px] w-[343px] h-[343px] mx-auto" src="<?php echo get_template_directory_uri()?>/assets/images/card1.png">
+            <img class="lg:w-[510px] lg:h-[510px] w-[343px] h-[343px] mx-auto" src="<?php echo get_template_directory_uri() ?>/assets/images/card1.png">
         </div>
     </section>
     <section class="xl:p-[80px] lg:py-[80px] lg:px-[40px] py-[40px] px-[16px]">
         <div class="flex xl:flex-row flex-col justify-between items-center w-full">
-            <img class=" xl:order-1 order-2 lg:w-[510px] lg:h-[510px] w-[343px] h-[343px] mx-auto xl:mr-[150px]" src="<?php echo get_template_directory_uri()?>/assets/images/card1.png">
+            <img class=" xl:order-1 order-2 lg:w-[510px] lg:h-[510px] w-[343px] h-[343px] mx-auto xl:mr-[150px]" src="<?php echo get_template_directory_uri() ?>/assets/images/card1.png">
 
             <div class="xl:w-[620px] xl:order-2 order-1">
                 <p class="text-[#0F1F26] md:text-[32px] text-[24px] pb-[16px]" style="font-family: Merriweather_Black;">
@@ -50,16 +50,16 @@ get_header();
                 <p class="text-[18px] text-[#0F1F26] pb-[24px]" style="font-family:Merriweather_Bold;">We stay true to
                     that purpose by:</p>
                 <ul>
-                    <li style="background:url('<?php echo get_template_directory_uri()?>/assets/images/Rectangle\ 48.svg') no-repeat top left ; padding: 0px 0px 0px 25px;">
+                    <li style="background:url('<?php echo get_template_directory_uri() ?>/assets/images/Rectangle\ 48.svg') no-repeat top left ; padding: 0px 0px 0px 25px;">
                         <p class="text-[#4F5B66] md:text-[18px] text-[16px] pb-[16px]" style="font-family: Open_Sans;">
                             Spreading agility as a mindset and culture in the Middle East & Africa</p>
                     </li>
 
-                    <li style="background:url('<?php echo get_template_directory_uri()?>/assets/images/Rectangle\ 48.svg') no-repeat top left ; padding: 0px 0px 0px 25px;">
+                    <li style="background:url('<?php echo get_template_directory_uri() ?>/assets/images/Rectangle\ 48.svg') no-repeat top left ; padding: 0px 0px 0px 25px;">
                         <p class="text-[#4F5B66] md:text-[18px] text-[16px] pb-[16px]" style="font-family: Open_Sans;">
                             Inspiring leaders & organizations to create a human centric & value driven culture.</p>
                     </li>
-                    <li style="background:url('<?php echo get_template_directory_uri()?>/assets/images/Rectangle\ 48.svg') no-repeat top left ; padding: 0px 0px 0px 25px;">
+                    <li style="background:url('<?php echo get_template_directory_uri() ?>/assets/images/Rectangle\ 48.svg') no-repeat top left ; padding: 0px 0px 0px 25px;">
                         <p class="text-[#4F5B66] md:text-[18px] text-[16px] " style="font-family: Open_Sans;">
                             Developing inspiring and capable Agile leaders and Coaches who can transform their teams and
                             organizations towards bigger impact.</p>
@@ -74,7 +74,7 @@ get_header();
             differentiates us
         </p>
         <div class="flex xl:flex-row flex-col justify-between">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/card2.png" class="lg:w-[400px] lg:h-[400px] w-[343px] h-[343px] pb-[48px] mx-auto xl:mr-[260px]">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/card2.png" class="lg:w-[400px] lg:h-[400px] w-[343px] h-[343px] pb-[48px] mx-auto xl:mr-[260px]">
             <div class="xl:w-[620px]">
                 <p class="text-[24px] pb-[16px]" style="font-family:Merriweather_Bold;">Our Experience</p>
                 <p class="text-start text-[16px] text-[#4F5B66] " style="font-family:Open_Sans;">Our consultants/coaches
@@ -118,11 +118,11 @@ get_header();
                     unique training approach along with their deep practical experience to these classes</p>
 
             </div>
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/card3.png" class=" xl:order-2 order-1 lg:w-[400px] lg:h-[400px] w-[343px] h-[343px] pb-[48px] mx-auto">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/card3.png" class=" xl:order-2 order-1 lg:w-[400px] lg:h-[400px] w-[343px] h-[343px] pb-[48px] mx-auto">
         </div>
         <hr class="xl:block hidden my-[80px] border-[#CAD6E0]" />
         <div class="flex xl:flex-row flex-col justify-between">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/card4.png" class="lg:w-[400px] lg:h-[400px] w-[343px] h-[343px] pb-[48px] mx-auto xl:mr-[260px]">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/card4.png" class="lg:w-[400px] lg:h-[400px] w-[343px] h-[343px] pb-[48px] mx-auto xl:mr-[260px]">
             <div class="xl:w-[620px]">
                 <p class="text-[24px] pb-[16px]" style="font-family:Merriweather_Bold;">Our Leadership</p>
                 <p class="text-start text-[16px] text-[#4F5B66] " style="font-family:Open_Sans;">Agile Academy was
@@ -143,9 +143,9 @@ get_header();
         <div class="owl-carousel team owl-theme owl-loaded  lg:px-[40px] px-[16px] ">
             <div class="owl-stage-outer">
                 <div class="owl-stage">
-                    <a href="#" class="card owl-item group">
+                    <a href="<?php echo get_home_url() ?>/Team Member" class="card owl-item group">
                         <div class="h-[400px] pb-[24px]">
-                            <img class="h-full" src="<?php echo get_template_directory_uri()?>/assets/images/owl-1.png" alt="">
+                            <img class="h-full" src="<?php echo get_template_directory_uri() ?>/assets/images/owl-1.png" alt="">
                         </div>
                         <div class="flex justify-between group">
                             <div class="group">
@@ -155,14 +155,14 @@ get_header();
                                     Consultant</p>
                             </div>
                             <div class="flex">
-                                <button class="mr-[16px]"><img src="<?php echo get_template_directory_uri()?>/assets/images/Linkedin-icon-dark.svg"></button>
-                                <button><img src="<?php echo get_template_directory_uri()?>/assets/images/Twitter-icon-dark.svg"></button>
+                                <button class="mr-[16px]"><img src="<?php echo get_template_directory_uri() ?>/assets/images/Linkedin-icon-dark.svg"></button>
+                                <button><img src="<?php echo get_template_directory_uri() ?>/assets/images/Twitter-icon-dark.svg"></button>
                             </div>
                         </div>
                     </a>
-                    <a href="#" class="card owl-item group">
+                    <a href="<?php echo get_home_url() ?>/Team Member" class="card owl-item group">
                         <div class="h-[400px] pb-[24px]">
-                            <img class="h-full" src="<?php echo get_template_directory_uri()?>/assets/images/owl-2.png" alt="">
+                            <img class="h-full" src="<?php echo get_template_directory_uri() ?>/assets/images/owl-2.png" alt="">
                         </div>
                         <div class="flex justify-between">
                             <div>
@@ -173,14 +173,14 @@ get_header();
                                     Coach</p>
                             </div>
                             <div class="flex">
-                                <button class="mr-[16px]"><img src="<?php echo get_template_directory_uri()?>/assets/images/Linkedin-icon-dark.svg"></button>
-                                <button><img src="<?php echo get_template_directory_uri()?>/assets/images/Twitter-icon-dark.svg"></button>
+                                <button class="mr-[16px]"><img src="<?php echo get_template_directory_uri() ?>/assets/images/Linkedin-icon-dark.svg"></button>
+                                <button><img src="<?php echo get_template_directory_uri() ?>/assets/images/Twitter-icon-dark.svg"></button>
                             </div>
                         </div>
                     </a>
                     <a href="<?php echo get_home_url() ?>/Team Member" class="card owl-item group">
                         <div class="h-[400px] pb-[24px]">
-                            <img class="h-full" src="<?php echo get_template_directory_uri()?>/assets/images/owl-3.png" alt="">
+                            <img class="h-full" src="<?php echo get_template_directory_uri() ?>/assets/images/owl-3.png" alt="">
                         </div>
                         <div class="flex justify-between">
                             <div>
@@ -190,8 +190,8 @@ get_header();
                                     Co-Founder</p>
                             </div>
                             <div class="flex">
-                                <button class="mr-[16px]"><img src="<?php echo get_template_directory_uri()?>/assets/images/Linkedin-icon-dark.svg"></button>
-                                <button><img src="<?php echo get_template_directory_uri()?>/assets/images/Twitter-icon-dark.svg"></button>
+                                <button class="mr-[16px]"><img src="<?php echo get_template_directory_uri() ?>/assets/images/Linkedin-icon-dark.svg"></button>
+                                <button><img src="<?php echo get_template_directory_uri() ?>/assets/images/Twitter-icon-dark.svg"></button>
                             </div>
                         </div>
                     </a>
@@ -199,11 +199,11 @@ get_header();
             </div>
             <div class="md:mt-[40px]">
                 <div class="hidden md:flex flex flex-row items-center justify-center">
-                    <button class="bg-[url('<?php echo get_template_directory_uri()?>/assets/images/left-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri()?>/assets/images/hover-left-arrow.svg')] w-[56px] h-[40px] md:mr-[16px]" onclick="previous()">&nbsp</button>
-                    <button class="bg-[url('<?php echo get_template_directory_uri()?>/assets/images/right-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri()?>/assets/images/hover-left-arrow.svg')] hover:rotate-180 w-[56px] h-[40px] " onclick="next()">&nbsp</button>
+                    <button class="bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/left-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/hover-left-arrow.svg')] w-[56px] h-[40px] md:mr-[16px]" onclick="previous()">&nbsp</button>
+                    <button class="bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/right-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/hover-left-arrow.svg')] hover:rotate-180 w-[56px] h-[40px] " onclick="next()">&nbsp</button>
 
-                    <!-- <button> <img class="md:mr-[16px]" src="<?php echo get_template_directory_uri()?>/assets/images/left-arrow.svg"  onclick="previous()"></button> -->
-                    <!-- <button> <img src="<?php echo get_template_directory_uri()?>/assets/images/right-arrow.svg" onclick="next()"></button> -->
+                    <!-- <button> <img class="md:mr-[16px]" src="<?php echo get_template_directory_uri() ?>/assets/images/left-arrow.svg"  onclick="previous()"></button> -->
+                    <!-- <button> <img src="<?php echo get_template_directory_uri() ?>/assets/images/right-arrow.svg" onclick="next()"></button> -->
                 </div>
 
             </div>
@@ -218,7 +218,7 @@ get_header();
                 <div class="owl-stage">
                     <div class="card border border-[#406986] xl:px-[80px] owl-item ">
                         <div class="xl:px-[220px] xl:pt-[80px] xl:pb-[152px] lg:px-[48px] lg:py-[80px] py-[48px] px-[24px]">
-                            <img class="w-[80px] h-[80px] pb-[24px]" src="<?php echo get_template_directory_uri()?>/assets/images/Quote-icon.svg">
+                            <img class="w-[80px] h-[80px] pb-[24px]" src="<?php echo get_template_directory_uri() ?>/assets/images/Quote-icon.svg">
                             <p class=" text-center text-white text-[24x] pb-[16px]" style="font-family: Merriweather_Bold;">After knowing Agile Academy and attending one of
                                 their agile courses, I can say based on my 20 years of experience in the software and
                                 telecom industries that Agile Academy is the original agile reference in Egypt</p>
@@ -232,12 +232,12 @@ get_header();
             </div>
             <div class="md:mt-[40px]  ">
                 <div class="hidden md:flex flex flex-row items-center justify-center">
-                    <button class="bg-[url('<?php echo get_template_directory_uri()?>/assets/images/white-left-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri()?>/assets/images/hover-fill-white-left-arrow.svg')] w-[56px] h-[40px] md:mr-[16px]" onclick="previousquote()">&nbsp</button>
-                    <button class="bg-[url('<?php echo get_template_directory_uri()?>/assets/images/white-right-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri()?>/assets/images/hover-fill-white-left-arrow.svg')] hover:rotate-180 w-[56px] h-[40px] " onclick="nextquote()">&nbsp</button>
+                    <button class="bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/white-left-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/hover-fill-white-left-arrow.svg')] w-[56px] h-[40px] md:mr-[16px]" onclick="previousquote()">&nbsp</button>
+                    <button class="bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/white-right-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/hover-fill-white-left-arrow.svg')] hover:rotate-180 w-[56px] h-[40px] " onclick="nextquote()">&nbsp</button>
 
-                    <!-- <button><img class="md:mr-[16px]" src="<?php echo get_template_directory_uri()?>/assets/images/white-left-arrow.svg"
+                    <!-- <button><img class="md:mr-[16px]" src="<?php echo get_template_directory_uri() ?>/assets/images/white-left-arrow.svg"
                             onclick="previousquote()"></button>
-                    <button> <img src="<?php echo get_template_directory_uri()?>/assets/images/white-right-arrow.svg" onclick="nextquote()"></button> -->
+                    <button> <img src="<?php echo get_template_directory_uri() ?>/assets/images/white-right-arrow.svg" onclick="nextquote()"></button> -->
                 </div>
 
             </div>
@@ -246,81 +246,30 @@ get_header();
     <section class="xl:py-[120px] lg:py-[80px] py-[40px] px-[80px]">
         <p class="text-center text-[24px] " style="font-family:Merriweather_Bold;">Our Partners</p>
         <div class=" lg:pt-[80px] md:pt-[64px] pt-[48px] grid xl:grid-cols-6 lg:grid-cols-4 grid-cols-1 lg:gap-[64px] gap-[40px] place-items-center ">
-            <div><img src="<?php echo get_template_directory_uri()?>/assets/images/grid1.svg"></div>
-            <div><img src="<?php echo get_template_directory_uri()?>/assets/images/grid2.svg"></div>
-            <div><img src="<?php echo get_template_directory_uri()?>/assets/images/grid3.svg"></div>
-            <div><img src="<?php echo get_template_directory_uri()?>/assets/images/grid4.svg"></div>
-            <div><img src="<?php echo get_template_directory_uri()?>/assets/images/grid5.svg"></div>
-            <div><img src="<?php echo get_template_directory_uri()?>/assets/images/grid6.svg"></div>
-            <div><img src="<?php echo get_template_directory_uri()?>/assets/images/grid7.svg"></div>
-            <div><img src="<?php echo get_template_directory_uri()?>/assets/images/grid8.svg"></div>
-            <div><img src="<?php echo get_template_directory_uri()?>/assets/images/grid9.svg"></div>
-            <div><img src="<?php echo get_template_directory_uri()?>/assets/images/grid10.svg"></div>
-            <div><img src="<?php echo get_template_directory_uri()?>/assets/images/grid11.svg"></div>
-            <div><img src="<?php echo get_template_directory_uri()?>/assets/images/grid12.svg"></div>
+            <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/grid1.svg"></div>
+            <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/grid2.svg"></div>
+            <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/grid3.svg"></div>
+            <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/grid4.svg"></div>
+            <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/grid5.svg"></div>
+            <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/grid6.svg"></div>
+            <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/grid7.svg"></div>
+            <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/grid8.svg"></div>
+            <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/grid9.svg"></div>
+            <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/grid10.svg"></div>
+            <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/grid11.svg"></div>
+            <div><img src="<?php echo get_template_directory_uri() ?>/assets/images/grid12.svg"></div>
 
         </div>
     </section>
     <section class=" relative bg-cover bg-[#C34849]   h-[208px] px-[16px] py-[40px] flex flex-col justify-center items-center">
-        <img class="lg:block hidden absolute top-0 right-0" src="<?php echo get_template_directory_uri()?>/assets/images/Icon.svg">
+        <img class="lg:block hidden absolute top-0 right-0" src="<?php echo get_template_directory_uri() ?>/assets/images/Icon.svg">
         <p class="text-white text-[32px] text-center pb-[24px]" style="font-family:Merriweather_Black;">Reach out to us
             for more information</p>
         <a href="<?php echo get_home_url() ?>/Contact Us"><button class="bg-white md:w-[160px] w-full px-[32px] py-[10px] rounded-[4px]" style="font-family:Open_Sans_Bold;">Contact us</button></a>
 
     </section>
-    <footer class=" bg-cover  bg-[#02283B]  flex flex-col  w-[100%]">
-        <div class="lg:m-[80px] md:mx-[40px] my-[80px] mx-[16px]">
-            <a href="" class=" pb-[40px]">
-                <img src="<?php echo get_template_directory_uri()?>/assets/images/Logo.png" class=" w-[227px] sm:w-[176px] h-8 " alt="Logo" />
-            </a>
-            <div class="flex lg:flex-row justify-between items-center flex-col">
-                <div class="md:order-2 lg:order-1 order-2 lg:w-[40%] w-full lg:pr-[50px]">
-                    <p class="text-[18px] text-white pb-[32px] lg:pt[40px] md:pt-[80px] pt-[48px]" style="font-family:Merriweather_Bold;">Join our community</p>
-                    <div class="lg:flex-col md:flex-row flex flex-col">
-                        <div class="flex md:flex-row flex-col lg:mb-[88px] md:mr-[220px] lg:mr-[0px]">
-                            <input type="text" class="block lg:w-[285px] h-[56px] p-2 md:mr-[16px] mb-[10px] border border-white rounded-[4px] text-white bg-[#02283B] text-[16px] focus:border-white dark:focus:border-white dark:border-white" style="font-family: Open_Sans;" placeholder="Enter your email">
-                            <button type="button" class="text-white rounded-[4px] text-[18px] bg-[#C34849] hover:bg-[#923031] h-[56px] text-center  py-[10px] px-[32px] " style="font-family:Open_Sans_Bold; ">Join</button>
-                        </div>
-                        <div class="flex hidden md:block md:mt-[25px] lg:mt-0">
-                            <button class="mr-[16px]"><img src="<?php echo get_template_directory_uri()?>/assets/images/Linkedin-icon.svg"></button>
-                            <button class="mr-[16px]"><img src="<?php echo get_template_directory_uri()?>/assets/images/Twitter-icon.svg"></button>
-                            <button class="mr-[16px]"><img src="<?php echo get_template_directory_uri()?>/assets/images/Youtube-icon.svg"></button>
-                            <button><img src="<?php echo get_template_directory_uri()?>/assets/images/Facebook-icon.svg"></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex justify-between md:order-1 lg:order-2 order-1 pt-[40px] lg:w-[60%]">
-                    <div class="flex-col lg:w-[20%] w-[50%]">
-                        <p class="text-white text-[18px] pb-[32px]" style="font-family:Merriweather_Bold;">Quick links
-                        </p>
-                        <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="">Services</a></div>
-                        <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="">Training</a></div>
-                        <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="">About
-                                us</a></div>
-                        <div class="text-white text-[16px]" style="font-family:Open_Sans;"><a href="<?php echo get_home_url() ?>/Contact Us">Contact us</a>
-                        </div>
-                    </div>
-                    <div class="flex-col lg:w-[40%] w-[50%]">
-                        <p class="text-white text-[18px] pb-[32px]" style="font-family:Merriweather_Bold;">Contact</p>
-                        <p class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;">Agile Academy, DMCC
-                            Business Center Level No 1, Jewellery & Complex 3 JLT, Dubai, United Arab Emirates</p>
-                        <p class="text-white text-[16px] " style="font-family:Open_Sans;">Email: info@agileacademy.co
-                        </p>
-                    </div>
-                </div>
 
-            </div>
-            <hr class=" mt-[40px] border-[#406986]" />
-            <p class="text-white md:pt-[40px]  pt-[24px]  text-[16px] text-center" style="font-family: Open_Sans;">©
-                2023 Agile Academy. All Rights Reserved.</p>
-        </div>
-    </footer>
-    <script defer src="https://unpkg.com/alpinejs@3.10.3/dist/cdn.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="owlcarousel/dist/owl.carousel.min.js"></script>
-    <script src="script.js"></script>
-    <script src="navBar.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <?php get_footer(); ?>
 
 </body>
 
