@@ -1,0 +1,6 @@
+Sep 19 2023 11:12:14
+{"Number":2,"Message":"rmdir(C:\\laragon\\www\\agile-acadamy\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\9t12ycst35li): Directory not empty","File":"C:\\laragon\\www\\agile-acadamy\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filesystem\\class-ai1wm-directory.php","Line":72}
+
+Sep 19 2023 11:12:15
+{"Number":2,"Message":"filesize(): stat failed for C:\\laragon\\www\\agile-acadamy\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\9t12ycst35li\\agile-acadamy.localhost-20230919-111205-zpxa0k.wpress","File":"C:\\laragon\\www\\agile-acadamy\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-archiver.php","Line":231}
+

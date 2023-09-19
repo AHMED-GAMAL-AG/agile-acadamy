@@ -77,7 +77,7 @@ get_header();
                                 collaborative activities can be planned, organised and run. Upon attending this course,
                                 you’ll earn the <span class="text-[#C34849]"> ICAgile Certified Professional for Agile
                                     Team Facilitation (ICP-ATF)</span> certificate. </p>
-                            <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
+                            <a href="<?php echo get_home_url() ?>/course"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button></a>
                         </div>
                         <div class="card p-[40px] border border-[#CAD6E0]">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
@@ -88,7 +88,7 @@ get_header();
                                 products taking into consideration product changes and technical innovation. Upon
                                 attending this course, you’ll earn the <span class="text-[#C34849]"> ICAgile Certified
                                     Professional in Agile Programming (ICP-PRG)</span> certificate. </p>
-                            <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
+                            <a href="<?php echo get_home_url() ?>/course"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button></a>
                         </div>
                         <div class="card p-[40px] border border-[#CAD6E0]">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
@@ -99,7 +99,7 @@ get_header();
                                 <span class="text-[#C34849]"> ICAgile Certified Professional in Agile Testing
                                     (ICP-TST)</span> certificate.
                             </p>
-                            <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
+                            <a href="<?php echo get_home_url() ?>/course"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button></a>
                         </div>
                         <div class="card p-[40px] border border-[#CAD6E0]">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
@@ -109,7 +109,7 @@ get_header();
                                 techniques of a successful Product Owner and gain in-depth understanding of business
                                 value management. Upon attending this course, you’ll earn the <span class="text-[#C34849]"> ICAgile Certified Professional in Agile Product Ownership
                                     (ICP-APO)</span> certificate. </p>
-                            <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
+                            <a href="<?php echo get_home_url() ?>/course"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button></a>
                         </div>
                         <div class="card p-[40px] border border-[#CAD6E0]">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
@@ -120,7 +120,7 @@ get_header();
                                 collaboration and healthy conflict resolution within an agile team. Upon attending this
                                 course, you’ll earn the <span class="text-[#C34849]"> Agile Coaching (ICP-ACC)</span>
                                 certificate. </p>
-                            <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
+                            <a href="<?php echo get_home_url() ?>/course"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button></a>
                         </div>
                         <div class="card p-[40px] border border-[#CAD6E0]">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[200px] h-[200px] pb-[40px] mx-auto">
@@ -134,7 +134,7 @@ get_header();
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px] pb-[24px] " style="font-family: Open_Sans;">
                                 Upon attending this course, you’ll earn the ICAgile Certified Professional in <span class="text-[#C34849]"> Agile Project Management (ICP-APM)</span> certificate. </p>
 
-                            <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
+                            <a href="<?php echo get_home_url() ?>/course"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button></a>
                         </div>
                     </div>
                     <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]   w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">See more</button>
@@ -158,6 +158,7 @@ get_header();
                                 study. </p>
                             <div class="mb-[40px] mx-[40px]">
                                 <a href="<?php echo get_home_url() ?>/workshop"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px] " style="font-family:Open_Sans_Bold; ">Learn more</button></a>
+
                             </div>
                         </div>
                         <div class="card round-[8px] bg-white">
@@ -171,7 +172,8 @@ get_header();
                                 the opportunity to practice and write contracts on their own through simulated case
                                 studies. </p>
                             <div class="mb-[40px] mx-[40px]">
-                                <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px] " style="font-family:Open_Sans_Bold; ">Learn more</button>
+                                <a href="<?php echo get_home_url() ?>/workshop"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px] " style="font-family:Open_Sans_Bold; ">Learn more</button></a>
+
                             </div>
                         </div>
                         <div class="card round-[8px] bg-white">
@@ -184,7 +186,8 @@ get_header();
                                 progressively introduces structure and reduces complexity of product code in a simple
                                 and stepwise approach. </p>
                             <div class="mb-[40px] mx-[40px]">
-                                <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px] " style="font-family:Open_Sans_Bold; ">Learn more</button>
+                                <a href="<?php echo get_home_url() ?>/workshop"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px] " style="font-family:Open_Sans_Bold; ">Learn more</button></a>
+
                             </div>
                         </div>
                         <div class="card round-[8px] bg-white">
@@ -194,7 +197,8 @@ get_header();
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px]  px-[40px] pb-[24px] " style="font-family: Open_Sans;">
                                 Kanban is a simple and efficient method for managing and continuously improving the flow of software projects and processes. Kanban enables visual tracking of the workflow, limits work-in-process, and provides continuous feedback to drive continuous improvement. Attend this workshop to know the basic concepts of Kanban and experience managing a project using this powerful technique. </p>
                             <div class="mb-[40px] mx-[40px]">
-                                <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px] " style="font-family:Open_Sans_Bold; ">Learn more</button>
+                                <a href="<?php echo get_home_url() ?>/workshop"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px] " style="font-family:Open_Sans_Bold; ">Learn more</button></a>
+
                             </div>
                         </div>
                         <div class="card round-[8px] bg-white">
@@ -204,7 +208,8 @@ get_header();
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px]  px-[40px] pb-[24px] " style="font-family: Open_Sans;">
                                 Entrepreneurship is management, not good or bad luck. In order to succeed, startups must to be managed in a lean and value-driven way. If not, opportunities of success will not exceed 5% as per the global statistics of startups! In this workshop, you will be introduced and trained on modern Lean Startups management concepts and techniques through many exercises and simulation games. </p>
                             <div class="mb-[40px] mx-[40px]">
-                                <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px] " style="font-family:Open_Sans_Bold; ">Learn more</button>
+                                <a href="<?php echo get_home_url() ?>/workshop"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px] " style="font-family:Open_Sans_Bold; ">Learn more</button></a>
+
                             </div>
                         </div>
                         <div class="card round-[8px] bg-white">
@@ -214,7 +219,8 @@ get_header();
                             <p class="text-[#4F5B66] md:text-[16px] text-[14px]  px-[40px] pb-[24px] " style="font-family: Open_Sans;">
                                 Software teams suffer from traditional appraisal methods and routine performance evaluation activities which take place in almost all organizations. In this workshop, we will redefine the objectives of performance evaluation, and will understand how these objectives differ dramatically in of team evaluation versus individual evaluation. </p>
                             <div class="mb-[40px] mx-[40px]">
-                                <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px] " style="font-family:Open_Sans_Bold; ">Learn more</button>
+                                <a href="<?php echo get_home_url() ?>/workshop"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px] " style="font-family:Open_Sans_Bold; ">Learn more</button></a>
+
                             </div>
                         </div>
                     </div>

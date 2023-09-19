@@ -162,7 +162,7 @@ get_header();
     <div class="owl-carousel team owl-theme owl-loaded  lg:px-[40px] px-[16px] ">
         <div class="owl-stage-outer">
             <div class="owl-stage">
-                <a href="#" class="card owl-item group">
+                <a href="<?php echo get_home_url() ?>/Team Member" class="card owl-item group">
                     <div class="h-[400px] pb-[24px]">
                         <img class="h-full" src="<?php echo get_template_directory_uri() ?>/assets/images/owl-1.png" alt="">
                     </div>
@@ -179,7 +179,7 @@ get_header();
                         </div>
                     </div>
                 </a>
-                <a href="#" class="card owl-item group">
+                <a href="<?php echo get_home_url() ?>/Team Member" class="card owl-item group">
                     <div class="h-[400px] pb-[24px]">
                         <img class="h-full" src="<?php echo get_template_directory_uri() ?>/assets/images/owl-2.png" alt="">
                     </div>
