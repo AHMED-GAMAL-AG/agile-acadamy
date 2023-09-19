@@ -218,7 +218,7 @@ get_header();
                         <div>
                             <hr class=" my-[24px] border-[#CAD6E0]" />
                             <p class="text-[#0F1F26] text-[24px] text-start pb-[24px]" style="font-family: Merriweather_Bold;">Price: 199.99 EGP</p>
-                            <a href="chexkout.html"><button type="button" class="text-white rounded-[4px] text-[18px]  bg-[#C34849] hover:bg-[#923031] border border-white xl:w-full md:w-[191px] w-full text-center  py-[10px] md:px-[32px] px-[24px]" style="font-family:Open_Sans_Bold; ">Book course</button></a>
+                            <a href="<?php echo get_home_url() ?>/Checkout"><button type="button" class="text-white rounded-[4px] text-[18px]  bg-[#C34849] hover:bg-[#923031] border border-white xl:w-full md:w-[191px] w-full text-center  py-[10px] md:px-[32px] px-[24px]" style="font-family:Open_Sans_Bold; ">Book course</button></a>
                         </div>
                     </div>
                 </div>
@@ -229,7 +229,7 @@ get_header();
                             request, and we'll reply back soon!</p>
 
                     </div>
-                    <a href="enterprise-form.html"> <button type="button" class="text-[#C34849] rounded-[4px] text-[18px]   hover:bg-[#C34849] hover:text-white border border-[#C34849] xl:w-full md:w-[250px] w-full text-center  py-[10px] md:px-[32px] px-[24px]" style="font-family:Open_Sans_Bold; ">Book for enterprise</button></a>
+                    <a href="<?php echo get_home_url() ?>/Enterprise Form"> <button type="button" class="text-[#C34849] rounded-[4px] text-[18px]   hover:bg-[#C34849] hover:text-white border border-[#C34849] xl:w-full md:w-[250px] w-full text-center  py-[10px] md:px-[32px] px-[24px]" style="font-family:Open_Sans_Bold; ">Book for enterprise</button></a>
                 </div>
             </div>
         </div>
@@ -268,7 +268,7 @@ get_header();
         <img class="lg:block hidden absolute top-0 right-0" src="<?php echo get_template_directory_uri()?>/assets/images/Icon.svg">
         <p class="text-white text-[32px] text-center pb-[24px]" style="font-family:Merriweather_Black;">Reach out to us
             for more information</p>
-        <a href="contact-us.html"><button class="bg-white md:w-[160px] w-full px-[32px] py-[10px] rounded-[4px]" style="font-family:Open_Sans_Bold;">Contact us</button></a>
+        <a href="<?php echo get_home_url() ?>/Contact Us"><button class="bg-white md:w-[160px] w-full px-[32px] py-[10px] rounded-[4px]" style="font-family:Open_Sans_Bold;">Contact us</button></a>
 
     </section>
 

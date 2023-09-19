@@ -12,7 +12,7 @@ get_header();
         <div class="xl:px-[80px] lg:px-[40px] px-[16px] py-[20px] flex flex-wrap items-center justify-between  ">
             <div class="flex">
                 <div class="lg:w-[236px] sm:w-[176px] h-8 md:mr-2">
-                    <a href="index.html" class="">
+                    <a href="<?php echo get_home_url() ?>/Home Page" class="">
                         <img src="<?php echo get_template_directory_uri()?>/assets/images/Logo.png" class=" lg:w-[236px] sm:w-[176px] h-8 " alt="Logo" />
                     </a>
                 </div>
@@ -102,24 +102,24 @@ get_header();
                                     </svg></button>
                                 <ul x-show="open" @click.away="open = false" class="dropdown-menu">
                                     <li>
-                                        <a href="service1.html"
+                                        <a href="<?php echo get_home_url() ?>/service1"
                                             class="block  py-2 px-2 hover:bg-white hover:text-[#033A54]"
                                             style="font-family: Open_Sans; font-weight: 400;">Enterprise Business
                                             Agility Transformation</a>
                                     </li>
                                     <li>
-                                        <a href="service2.html"
+                                        <a href="<?php echo get_home_url() ?>/service2"
                                             class="block  py-2 px-2 hover:bg-white hover:text-[#033A54]"
                                             style="font-family: Open_Sans; font-weight: 400;">Coaching Services</a>
                                     </li>
                                     <li>
-                                        <a href="service4.html"
+                                        <a href="<?php echo get_home_url() ?>/service4"
                                             class="block  py-2 px-2 hover:bg-white hover:text-[#033A54]"
                                             style="font-family: Open_Sans; font-weight: 400;">Agile Readiness &
                                             Health Assessment</a>
                                     </li>
                                     <li>
-                                        <a href="service5.html"
+                                        <a href="<?php echo get_home_url() ?>/service5"
                                             class="block  py-2  px-2 hover:bg-white hover:text-[#033A54]"
                                             style="font-family: Open_Sans; font-weight: 400;">Capability Building
                                             Programs</a>
@@ -140,21 +140,21 @@ get_header();
                                 class="z-10 hidden font-normal bg-white rounded-[4px] shadow w-[283px] dark:bg-gray-700 dark:divide-gray-600">
                                 <ul class="py-2 text-sm text-[#4F5B66]" aria-labelledby="dropdownLargeButton">
                                     <li>
-                                        <a href="service1.html" class="block px-4 py-2 hover:bg-[#F2FBFF]"
+                                        <a href="<?php echo get_home_url() ?>/service1" class="block px-4 py-2 hover:bg-[#F2FBFF]"
                                             style="font-family: Open_Sans; font-weight: 400;">Enterprise Business
                                             Agility Transformation</a>
                                     </li>
                                     <li>
-                                        <a href="service2.html" class="block px-4 py-2 hover:bg-[#F2FBFF]"
+                                        <a href="<?php echo get_home_url() ?>/service2" class="block px-4 py-2 hover:bg-[#F2FBFF]"
                                             style="font-family: Open_Sans; font-weight: 400;">Coaching Services</a>
                                     </li>
                                     <li>
-                                        <a href="service4.html" class="block px-4 py-2 hover:bg-[#F2FBFF]"
+                                        <a href="<?php echo get_home_url() ?>/service4" class="block px-4 py-2 hover:bg-[#F2FBFF]"
                                             style="font-family: Open_Sans; font-weight: 400;">Agile Readiness &
                                             Health Assessment</a>
                                     </li>
                                     <li>
-                                        <a href="service5.html" class="block px-4 py-2 hover:bg-[#F2FBFF] "
+                                        <a href="<?php echo get_home_url() ?>/service5" class="block px-4 py-2 hover:bg-[#F2FBFF] "
                                             style="font-family: Open_Sans; font-weight: 400;">Capability Building
                                             Programs</a>
                                     </li>
@@ -177,12 +177,12 @@ get_header();
                                     </svg></button>
                                 <ul x-show="open" @click.away="open = false" class="dropdown-menu">
                                     <li>
-                                        <a href="courses-catalog.html"
+                                        <a href="<?php echo get_home_url() ?>/courses-catalog"
                                             class="block  py-2 px-2 hover:bg-white hover:text-[#033A54] hover:round-[4px]">Courses
                                             catalog</a>
                                     </li>
                                     <li>
-                                        <a href="cources-calender.html"
+                                        <a href="<?php echo get_home_url() ?>/cources-calender"
                                             class="block  py-2 px-2 hover:bg-white hover:text-[#033A54] hover:round-[4px]">Courses
                                             calendar</a>
                                     </li>
@@ -205,12 +205,12 @@ get_header();
                                 <ul class="py-2 text-sm text-gray-700 dark:text-white"
                                     aria-labelledby="dropdownLargeButton">
                                     <li>
-                                        <a href="courses-catalog.html"
+                                        <a href="<?php echo get_home_url() ?>/courses-catalog"
                                             class=" text-[#4F5B66] text-[16px] block px-4 py-2 hover:bg-[#F2FBFF]"
                                             style="font-family: Open_Sans; font-weight: 400;">Courses catalog</a>
                                     </li>
                                     <li>
-                                        <a href="cources-calender.html"
+                                        <a href="<?php echo get_home_url() ?>/courses-calender"
                                             class=" text-[#4F5B66] text-[16px] block px-4 py-2 hover:bg-[#F2FBFF]"
                                             style="font-family: Open_Sans; font-weight: 400;">Courses calendar</a>
                                     </li>
@@ -222,7 +222,7 @@ get_header();
                     </li>
 
                     <li class="lg:px-0 lg:py-0 px-[16px] py-[10px]">
-                        <a href="about-us.html" class="block  text-white text-[14px]" style="font-family: Open_Sans_Bold; ">About
+                        <a href="<?php echo get_home_url() ?>/about-us" class="block  text-white text-[14px]" style="font-family: Open_Sans_Bold; ">About
                             us</a>
                     </li>
 

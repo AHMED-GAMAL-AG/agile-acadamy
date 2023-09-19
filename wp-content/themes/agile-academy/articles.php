@@ -75,7 +75,7 @@ get_header();
         <img class="lg:block hidden absolute top-0 right-0" src="<?php echo get_template_directory_uri()?>/assets/images/Icon.svg">
         <p class="text-white text-[32px] text-center pb-[24px]" style="font-family:Merriweather_Black;">Reach out to us
             for more information</p>
-        <a href="contact-us.html"><button class="bg-white md:w-[160px] w-full px-[32px] py-[10px] rounded-[4px]" style="font-family:Open_Sans_Bold;">Contact us</button></a>
+        <a href="<?php echo get_home_url() ?>/Contact Us"><button class="bg-white md:w-[160px] w-full px-[32px] py-[10px] rounded-[4px]" style="font-family:Open_Sans_Bold;">Contact us</button></a>
 
     </section>
 

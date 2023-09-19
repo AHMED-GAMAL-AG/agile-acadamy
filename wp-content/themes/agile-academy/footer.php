@@ -23,11 +23,11 @@
                     <div class="flex-col lg:w-[20%] w-[50%]">
                         <p class="text-white text-[18px] pb-[32px]" style="font-family:Merriweather_Bold;">Quick links
                         </p>
-                        <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="">Services</a></div>
-                        <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="">Training</a></div>
-                        <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="">About
+                        <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="<?php echo get_home_url() ?>/">Services</a></div>
+                        <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="<?php echo get_home_url() ?>/courses-catalog">Training</a></div>
+                        <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="<?php echo get_home_url() ?>/About Us">About
                                 us</a></div>
-                        <div class="text-white text-[16px]" style="font-family:Open_Sans;"><a href="contact-us.html">Contact us</a>
+                        <div class="text-white text-[16px]" style="font-family:Open_Sans;"><a href="<?php echo get_home_url() ?>/Contact Us">Contact us</a>
                         </div>
                     </div>
                     <div class="flex-col lg:w-[40%] w-[50%]">

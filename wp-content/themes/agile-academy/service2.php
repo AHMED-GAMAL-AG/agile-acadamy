@@ -55,7 +55,7 @@ get_header();
                         Our Agile coaching services offer a great wealth of information and deep insights to
                         individuals,
                         teams, and organizations that enable them to effectively continue their agile journeys.</p>
-                    <a href="service3.html"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button></a>
+                    <a href="<?php echo get_home_url() ?>/service3"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button></a>
                 </div>
             </div>
 

@@ -157,7 +157,7 @@ get_header();
                                 advanced techniques for writing user stories and creating backlogs in a full-day case
                                 study. </p>
                             <div class="mb-[40px] mx-[40px]">
-                                <a href="workshop.html"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px] " style="font-family:Open_Sans_Bold; ">Learn more</button></a>
+                                <a href="<?php echo get_home_url() ?>/workshop"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px] " style="font-family:Open_Sans_Bold; ">Learn more</button></a>
                             </div>
                         </div>
                         <div class="card round-[8px] bg-white">
@@ -230,7 +230,7 @@ get_header();
         <img class="lg:block hidden absolute top-0 right-0" src="<?php echo get_template_directory_uri() ?>/assets/images/Icon.svg">
         <p class="text-white text-[32px] text-center pb-[24px]" style="font-family:Merriweather_Black;">Reach out to us
             for more information</p>
-        <a href="contact-us.html"><button class="bg-white md:w-[160px] w-full px-[32px] py-[10px] rounded-[4px]" style="font-family:Open_Sans_Bold;">Contact us</button></a>
+        <a href="<?php echo get_home_url() ?>/Contact Us"><button class="bg-white md:w-[160px] w-full px-[32px] py-[10px] rounded-[4px]" style="font-family:Open_Sans_Bold;">Contact us</button></a>
 
     </section>
     <footer class=" bg-cover  bg-[#02283B]  flex flex-col  w-[100%]">
@@ -262,7 +262,7 @@ get_header();
                         <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="">Training</a></div>
                         <div class="text-white text-[16px] pb-[24px]" style="font-family:Open_Sans;"><a href="">About
                                 us</a></div>
-                        <div class="text-white text-[16px]" style="font-family:Open_Sans;"><a href="contact-us.html">Contact us</a>
+                        <div class="text-white text-[16px]" style="font-family:Open_Sans;"><a href="<?php echo get_home_url() ?>/Contact Us">Contact us</a>
                         </div>
                     </div>
                     <div class="flex-col lg:w-[40%] w-[50%]">

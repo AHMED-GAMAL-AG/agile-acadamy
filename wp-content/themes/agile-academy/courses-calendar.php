@@ -38,8 +38,8 @@
                     </div>
                 </div>
                 <div class="flex items-center ">
-                    <button id="prevMonth" class="bg-[url('<?php echo get_template_directory_uri()?>/assets/images/left-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri()?>/assets/images/hover-left-arrow.svg')] w-[56px] h-[40px] md:mr-[16px] mr-[5px]">&nbsp</button>
-                    <button id="nextMonth" class="bg-[url('<?php echo get_template_directory_uri()?>/assets/images/right-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri()?>/assets/images/hover-left-arrow.svg')] hover:rotate-180 w-[56px] h-[40px] ">&nbsp</button>
+                    <button id="prevMonth" class="bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/left-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/hover-left-arrow.svg')] w-[56px] h-[40px] md:mr-[16px] mr-[5px]">&nbsp</button>
+                    <button id="nextMonth" class="bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/right-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/hover-left-arrow.svg')] hover:rotate-180 w-[56px] h-[40px] ">&nbsp</button>
                 </div>
 
             </div>
@@ -57,8 +57,8 @@
                 </div>
 
                 <div class="flex items-center ">
-                    <button id="prevRange" class="bg-[url('<?php echo get_template_directory_uri()?>/assets/images/left-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri()?>/assets/images/hover-left-arrow.svg')] w-[56px] h-[40px] md:mr-[16px] mr-[5px]">&nbsp</button>
-                    <button id="nextRange" class="bg-[url('<?php echo get_template_directory_uri()?>/assets/images/right-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri()?>/assets/images/hover-left-arrow.svg')] hover:rotate-180 w-[56px] h-[40px] ">&nbsp</button>
+                    <button id="prevRange" class="bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/left-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/hover-left-arrow.svg')] w-[56px] h-[40px] md:mr-[16px] mr-[5px]">&nbsp</button>
+                    <button id="nextRange" class="bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/right-arrow.svg')] hover:bg-[url('<?php echo get_template_directory_uri() ?>/assets/images/hover-left-arrow.svg')] hover:rotate-180 w-[56px] h-[40px] ">&nbsp</button>
                 </div>
 
             </div>
@@ -78,23 +78,23 @@
                 </div>
                 <div class="flex border border-[#033A54] lg:w-[200px] h-[40px] w-full round-[4px] lg:my-[0px] md:mt-[16px]">
                     <div x-show="showCalendar" class="flex w-[50%] text-[#033A54] items-center justify-center cursor-pointer " @click="showCalendar=false">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/images/List-icon.svg" class="w-[24px] h-[24px]">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/List-icon.svg" class="w-[24px] h-[24px]">
 
                         <p class="text-[#033A54] text-[14px] pl-[8px] text-center" style="font-family:Open_Sans_Bold;">List</p>
                     </div>
                     <div x-show="!showCalendar" class="flex w-[50%] bg-[#033A54] text-white items-center justify-center cursor-pointer " @click="showCalendar=false">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/images/List-icon-white.svg" class="w-[24px] h-[24px]">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/List-icon-white.svg" class="w-[24px] h-[24px]">
 
                         <p class="text-white text-[14px] pl-[8px] text-center" style="font-family:Open_Sans_Bold;">List</p>
                     </div>
                     <div x-show="showCalendar" class="flex w-[50%] bg-[#033A54] text-white items-center justify-center cursor-pointer " @click="showCalendar=true">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/images/Calendar-icon.svg" class="w-[24px] h-[24px]">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/Calendar-icon.svg" class="w-[24px] h-[24px]">
                         <p class="text-white text-[14px] pl-[8px] text-center" style="font-family:Open_Sans_Bold;">
                             Month</p>
 
                     </div>
                     <div x-show="!showCalendar" class="flex w-[50%]  text-[#033A54] items-center justify-center cursor-pointer " @click="showCalendar=true">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/images/Calendar-icon-blue.svg" class="w-[24px] h-[24px]">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/Calendar-icon-blue.svg" class="w-[24px] h-[24px]">
                         <p class="text-[#033A54] text-[14px] pl-[8px] text-center" style="font-family:Open_Sans_Bold;">
                             Month</p>
 
@@ -124,7 +124,7 @@
                 <div class="flex xl:flex-row flex-col">
                     <p class=" xl:w-[400px] text-[#0F1F26] text-[16px] xl:mr-[40px] mb-[40px]" style="font-family:Open_Sans;">March 27, 2018 @ 9:00 am - March 29, 2018 @ 5:00 pm</p>
                     <div class="card border border-[#CAD6E0] p-[24px] flex lg:flex-row flex-col">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/images/course.png" class="w-[150px] h-[150px] lg:mr-[24px] lg:mb-[0px] mb-[24px]">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[150px] h-[150px] lg:mr-[24px] lg:mb-[0px] mb-[24px]">
                         <div class="xl:w-[840px]">
                             <p class="text-[24px] text-[#0F1F26] mb-[16px]" style="font-family:Merriweather_Bold;">
                                 Fundamentals of Agile Software Development (ICP)</p>
@@ -133,14 +133,14 @@
                                 Agile mindset, values, principles as well as a broad overview of popular methods and
                                 practices. Upon attending this course, you’ll earn the<span class="text-[#C34849]">
                                     ICAgile Certified Professional (ICP)</span>> certificate.</p>
-                            <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
+                            <a href="<?php echo get_home_url() ?>/course"> <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
                         </div>
                     </div>
                 </div>
                 <div class="flex xl:flex-row flex-col">
                     <p class=" xl:w-[400px] text-[#0F1F26] text-[16px] xl:mr-[40px] mb-[40px]" style="font-family:Open_Sans;">March 31, 2018 @ 9:00 am - 5:00 pm</p>
                     <div class="card border border-[#CAD6E0] p-[24px] flex lg:flex-row flex-col">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/images/course.png" class="w-[150px] h-[150px] lg:mr-[24px] lg:mb-[0px] mb-[24px]">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[150px] h-[150px] lg:mr-[24px] lg:mb-[0px] mb-[24px]">
                         <div class="xl:w-[840px]">
                             <p class="text-[24px] text-[#0F1F26] mb-[16px]" style="font-family:Merriweather_Bold;">
                                 Agile Team Facilitation (ICP-ATF)</p>
@@ -159,7 +159,7 @@
                 <div class="flex xl:flex-row flex-col">
                     <p class=" xl:w-[400px] text-[#0F1F26] text-[16px] xl:mr-[40px] mb-[40px]" style="font-family:Open_Sans;">March 27, 2018 @ 9:00 am - March 29, 2018 @ 5:00 pm</p>
                     <div class="card border border-[#CAD6E0] p-[24px] flex lg:flex-row flex-col">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/images/course.png" class="w-[150px] h-[150px] lg:mr-[24px] lg:mb-[0px] mb-[24px]">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[150px] h-[150px] lg:mr-[24px] lg:mb-[0px] mb-[24px]">
                         <div class="xl:w-[840px]">
                             <p class="text-[24px] text-[#0F1F26] mb-[16px]" style="font-family:Merriweather_Bold;">
                                 Agile Professional Programming (ICP-PRG)</p>
@@ -183,7 +183,7 @@
                 <div class="flex xl:flex-row flex-col">
                     <p class=" xl:w-[400px] text-[#0F1F26] text-[16px] xl:mr-[40px] mb-[40px]" style="font-family:Open_Sans;">March 27, 2018 @ 9:00 am - March 29, 2018 @ 5:00 pm</p>
                     <div class="card border border-[#CAD6E0] p-[24px] flex lg:flex-row flex-col">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/images/course.png" class="w-[150px] h-[150px] lg:mr-[24px] lg:mb-[0px] mb-[24px]">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/course.png" class="w-[150px] h-[150px] lg:mr-[24px] lg:mb-[0px] mb-[24px]">
                         <div class="xl:w-[840px]">
                             <p class="text-[24px] text-[#0F1F26] mb-[16px]" style="font-family:Merriweather_Bold;">
                                 Fundamentals of Agile Software Development (ICP)</p>
@@ -192,7 +192,7 @@
                                 Agile mindset, values, principles as well as a broad overview of popular methods and
                                 practices. Upon attending this course, you’ll earn the<span class="text-[#C34849]">
                                     ICAgile Certified Professional (ICP)</span>> certificate.</p>
-                            <button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
+                            <a href="<?php echo get_home_url() ?>/course"><button type="button" class="text-[#033A54] hover:bg-[#033A54] hover:text-white rounded-[4px] text-[14px]  bg-white  border border-[#033A54]  lg:w-[132px] w-full text-center  py-[10px]  px-[24px]" style="font-family:Open_Sans_Bold; ">Learn more</button>
                         </div>
                     </div>
                 </div>
@@ -203,10 +203,10 @@
 
     </section>
     <section class=" relative bg-cover bg-[#C34849]   h-[208px] px-[16px] py-[40px] flex flex-col justify-center items-center">
-        <img class="lg:block hidden absolute top-0 right-0" src="<?php echo get_template_directory_uri()?>/assets/images/Icon.svg">
+        <img class="lg:block hidden absolute top-0 right-0" src="<?php echo get_template_directory_uri() ?>/assets/images/Icon.svg">
         <p class="text-white text-[32px] text-center pb-[24px]" style="font-family:Merriweather_Black;">Reach out to us
             for more information</p>
-        <a href="contact-us.html"><button class="bg-white md:w-[160px] w-full px-[32px] py-[10px] rounded-[4px]" style="font-family:Open_Sans_Bold;">Contact us</button></a>
+        <a href="<?php echo get_home_url() ?>/Contact Us"><button class="bg-white md:w-[160px] w-full px-[32px] py-[10px] rounded-[4px]" style="font-family:Open_Sans_Bold;">Contact us</button></a>
 
     </section>
 
@@ -318,12 +318,13 @@
 
 
                     filteredEventsByName.forEach(event => {
-                        const eventItem = document.createElement('p');
+                        const eventItem = document.createElement('a');
                         eventItem.className = 'eventItem';
-
+                        
                         eventItem.textContent = `${event.title} \n ${event.startTime} - ${event.endTime}`;
-                        eventItem.style.textOverflow = 'ellipsis';
-                        eventItem.style.overflow = 'hidden';
+                        eventItem.href=`<?php echo get_home_url() ?>/course`;
+                        eventItem.style.textOverflow='ellipsis';
+                        eventItem.style.overflow='hidden';
                         eventGroup.appendChild(eventItem);
                     });
 
